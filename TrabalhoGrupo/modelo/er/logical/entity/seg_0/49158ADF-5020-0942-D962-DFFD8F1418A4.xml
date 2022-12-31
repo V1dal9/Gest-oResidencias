@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="49158ADF-5020-0942-D962-DFFD8F1418A4" name="Covid_Situation">
+<createdBy>VorteX</createdBy>
+<createdTime>2021-10-24 22:20:41 UTC</createdTime>
+<ownerDesignName>er</ownerDesignName>
+<engineerTo>
+<item key="D1A28F05-5C21-23D9-969D-A38E10E40EE6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="covid_situation_ID" id="BF7AA2A6-362D-5B22-037C-E2917DA1C2FB">
+<createdBy>VorteX</createdBy>
+<createdTime>2021-10-24 22:21:13 UTC</createdTime>
+<ownerDesignName>er</ownerDesignName>
+<engineerTo>
+<item key="D1A28F05-5C21-23D9-969D-A38E10E40EE6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tested" id="699C9B81-2A67-8B72-A60F-8231DA97FFA1">
+<createdBy>Tomás Esteves</createdBy>
+<createdTime>2021-10-25 14:34:59 UTC</createdTime>
+<ownerDesignName>er</ownerDesignName>
+<engineerTo>
+<item key="D1A28F05-5C21-23D9-969D-A38E10E40EE6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="test_result" id="5B459DDD-F90C-55DE-05EF-F0CA6FAABC17">
+<createdBy>VorteX</createdBy>
+<createdTime>2021-10-24 22:44:25 UTC</createdTime>
+<ownerDesignName>er</ownerDesignName>
+<engineerTo>
+<item key="D1A28F05-5C21-23D9-969D-A38E10E40EE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="deleted" id="B05FE810-E709-E123-111B-11EB1CFDF19D">
+<createdBy>Tomás Esteves</createdBy>
+<createdTime>2021-10-25 14:33:24 UTC</createdTime>
+<ownerDesignName>er</ownerDesignName>
+<engineerTo>
+<item key="D1A28F05-5C21-23D9-969D-A38E10E40EE6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date_created" id="7178D94A-EEF2-4A8E-E02B-DE755D14308C">
+<createdBy>Tomás Esteves</createdBy>
+<createdTime>2021-10-25 14:33:24 UTC</createdTime>
+<ownerDesignName>er</ownerDesignName>
+<engineerTo>
+<item key="D1A28F05-5C21-23D9-969D-A38E10E40EE6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date_updated" id="FF391B52-FAD0-857D-8F73-F6752C477EE9">
+<createdBy>Tomás Esteves</createdBy>
+<createdTime>2021-10-25 14:33:24 UTC</createdTime>
+<ownerDesignName>er</ownerDesignName>
+<engineerTo>
+<item key="D1A28F05-5C21-23D9-969D-A38E10E40EE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date_deleted" id="625E26DB-D2AD-E701-8F9C-431719809184">
+<createdBy>Tomás Esteves</createdBy>
+<createdTime>2021-10-25 14:33:24 UTC</createdTime>
+<ownerDesignName>er</ownerDesignName>
+<engineerTo>
+<item key="D1A28F05-5C21-23D9-969D-A38E10E40EE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="student_ID" id="2DFFFD10-19E3-4D42-0EDB-9DDB4DC2A546">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-11-08 16:44:16 UTC</createdTime>
+<generatorID>29C6DC7E-C83F-01F8-9F33-8938F126C8D9</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<engineerTo>
+<item key="D1A28F05-5C21-23D9-969D-A38E10E40EE6" value="true"/>
+</engineerTo>
+<referedAttribute>743C9CED-DB31-C184-45F9-97B8FEB93399</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="706BDFCE-1FF5-1865-0406-B43895CF38E5" name="Covid_Situation PK">
+<createdBy>VorteX</createdBy>
+<createdTime>2021-10-24 22:21:24 UTC</createdTime>
+<ownerDesignName>er</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="D1A28F05-5C21-23D9-969D-A38E10E40EE6" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BF7AA2A6-362D-5B22-037C-E2917DA1C2FB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

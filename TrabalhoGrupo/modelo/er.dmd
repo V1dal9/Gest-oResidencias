@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="er" id="55FBCD16-8963-6422-E0CA-ABE948D956A3" version="3.5">
+<createdBy>VorteX</createdBy>
+<createdTime>2021-10-24 21:48:48 UTC</createdTime>
+<ownerDesignName>er</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>55FBCD16-8963-6422-E0CA-ABE948D956A3</designId>
+</OSDM_Design>

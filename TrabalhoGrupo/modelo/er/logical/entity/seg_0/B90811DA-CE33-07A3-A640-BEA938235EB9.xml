@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B90811DA-CE33-07A3-A640-BEA938235EB9" name="Materials">
+<createdBy>VorteX</createdBy>
+<createdTime>2021-10-24 22:15:02 UTC</createdTime>
+<ownerDesignName>er</ownerDesignName>
+<engineerTo>
+<item key="D1A28F05-5C21-23D9-969D-A38E10E40EE6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="materials_id" id="85798780-4388-9BD3-5DE6-38EC25C92657">
+<createdBy>VorteX</createdBy>
+<createdTime>2021-10-24 22:15:27 UTC</createdTime>
+<ownerDesignName>er</ownerDesignName>
+<engineerTo>
+<item key="D1A28F05-5C21-23D9-969D-A38E10E40EE6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="F20B24E6-F06D-FA6F-277D-2F14B1277979">
+<createdBy>VorteX</createdBy>
+<createdTime>2021-10-24 22:15:44 UTC</createdTime>
+<ownerDesignName>er</ownerDesignName>
+<engineerTo>
+<item key="D1A28F05-5C21-23D9-969D-A38E10E40EE6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="description" id="120442F0-1D97-5358-A3BB-1B35DC96495D">
+<createdBy>VorteX</createdBy>
+<createdTime>2021-10-24 22:16:21 UTC</createdTime>
+<ownerDesignName>er</ownerDesignName>
+<engineerTo>
+<item key="D1A28F05-5C21-23D9-969D-A38E10E40EE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantity" id="C9FFE778-5962-7D76-0B09-29CF01D5F4D1">
+<createdBy>VorteX</createdBy>
+<createdTime>2021-10-24 22:16:46 UTC</createdTime>
+<ownerDesignName>er</ownerDesignName>
+<engineerTo>
+<item key="D1A28F05-5C21-23D9-969D-A38E10E40EE6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="residence_ID" id="B19B2318-0B01-142D-C0CF-617D49B30D6B">
+<createdBy>VorteX</createdBy>
+<createdTime>2021-10-24 22:32:23 UTC</createdTime>
+<generatorID>937BC0B1-F5EF-F991-AC0D-2278690624CB</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<engineerTo>
+<item key="D1A28F05-5C21-23D9-969D-A38E10E40EE6" value="true"/>
+</engineerTo>
+<referedAttribute>3035E9ED-A8E3-04A2-440A-28EB23B61F7B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F4BDE0AB-343B-F0BF-D772-27FC7EAD2A01" name="Materials PK">
+<createdBy>VorteX</createdBy>
+<createdTime>2021-10-24 22:15:42 UTC</createdTime>
+<ownerDesignName>er</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="D1A28F05-5C21-23D9-969D-A38E10E40EE6" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>85798780-4388-9BD3-5DE6-38EC25C92657</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0B7C46EA-44FF-C80A-CF15-51B24DEA50FA" name="Students_Control">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-12-02 13:33:41 UTC</createdTime>
+<generatorID>4256444D-BC42-28C1-FFF9-04A8CAB8ECC0</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Control_ID" id="82333679-3F05-15FE-1F82-AB2B86EF4F6D">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-12-02 13:33:41 UTC</createdTime>
+<generatorID>943B8151-3FF9-2D63-A9B3-7A1F1839BE91</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="action_type" id="93DBD999-1CEC-ECC4-E7BA-4FFF906E9A61">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-12-02 13:33:41 UTC</createdTime>
+<generatorID>E9387F1C-EF1F-51A7-60A4-0E6BC3F09251</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Contract_contract_id" id="6BC12E95-0401-27F8-30E0-5DB0816CB692">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-12-02 13:33:41 UTC</createdTime>
+<generatorID>958A1DE0-DFA5-1324-8DA4-BBB73AAE268E</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B4AD87DA-F150-08C0-12A5-BA7C863104E4" referredColumn="09C2907F-9595-2516-2EE1-2C3EB1A4CA36"/>
+</associations>
+</Column>
+<Column name="entry_date" id="2E1E26A7-1C0C-6C5A-0CB6-DABF63ED1D59">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-12-02 13:33:41 UTC</createdTime>
+<generatorID>43AAAD11-44ED-0342-56DE-69830B2E2B26</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EBFB30DD-37A5-FF99-9B83-3F4384B6DF9D" name="Students_Control_PK">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-12-02 13:33:41 UTC</createdTime>
+<generatorID>5140643A-81EF-625E-DDD0-FDCD593C2545</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82333679-3F05-15FE-1F82-AB2B86EF4F6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F2380E65-CCC6-160A-07EA-80800AE87F9A" name="Students_Control_Contract_FK">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-12-02 13:33:41 UTC</createdTime>
+<generatorID>CCFC4DB0-22E0-1710-8B8C-25A30A2E88BB</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BC12E95-0401-27F8-30E0-5DB0816CB692"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

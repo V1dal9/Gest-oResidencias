@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="870D9E21-493A-973F-4475-2B41C1B5006A" mainViewID="3501DD62-E41A-0C80-48CC-58F499B5DF23">
+<createdBy>VorteX</createdBy>
+<createdTime>2021-10-24 21:48:48 UTC</createdTime>
+<ownerDesignName>er</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

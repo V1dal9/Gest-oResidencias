@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D32CE3A8-815C-F911-FEAC-7411E07D8553" name="Contract">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-11-08 16:45:39 UTC</createdTime>
+<ownerDesignName>er</ownerDesignName>
+<engineerTo>
+<item key="D1A28F05-5C21-23D9-969D-A38E10E40EE6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="contract_id" id="7EEEADE1-412F-21A0-1D02-E8B35ADD5206">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-11-08 16:48:09 UTC</createdTime>
+<ownerDesignName>er</ownerDesignName>
+<engineerTo>
+<item key="D1A28F05-5C21-23D9-969D-A38E10E40EE6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date_start_rent" id="6933CD0D-1C4C-6608-94C8-57EE543E9BA5">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-11-08 16:46:19 UTC</createdTime>
+<ownerDesignName>er</ownerDesignName>
+<engineerTo>
+<item key="D1A28F05-5C21-23D9-969D-A38E10E40EE6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date_end_rent" id="FE7A992F-CBFC-DFA0-1692-E479841CEF02">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-11-08 16:49:25 UTC</createdTime>
+<ownerDesignName>er</ownerDesignName>
+<engineerTo>
+<item key="D1A28F05-5C21-23D9-969D-A38E10E40EE6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="student_ID" id="2C960CBB-B815-9099-52A8-5479E77AB03F">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-11-08 16:53:15 UTC</createdTime>
+<generatorID>75C8F39A-75F1-C532-2FCA-E296F8B5AE28</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<engineerTo>
+<item key="D1A28F05-5C21-23D9-969D-A38E10E40EE6" value="true"/>
+</engineerTo>
+<referedAttribute>743C9CED-DB31-C184-45F9-97B8FEB93399</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rooms_id" id="3D6BD1AA-DB84-DE4F-7ABC-2506F6DC5D99">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-11-08 17:14:39 UTC</createdTime>
+<generatorID>2DE52561-02A5-DE14-B759-5B1746D9B1D7</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<engineerTo>
+<item key="D1A28F05-5C21-23D9-969D-A38E10E40EE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>FB266D94-092A-D7A8-9E12-CF2501847D6C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pagamento" id="835432E0-672C-7D78-ADB9-BFD932F69152">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-11-08 17:25:28 UTC</createdTime>
+<ownerDesignName>er</ownerDesignName>
+<engineerTo>
+<item key="D1A28F05-5C21-23D9-969D-A38E10E40EE6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>100</dataTypePrecision>
+<ownDataTypeParameters>,100,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E8A0F2C5-7DEE-5482-4E5B-65A2CFF019F1" name="Students_contract PK">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-11-08 16:48:32 UTC</createdTime>
+<ownerDesignName>er</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="D1A28F05-5C21-23D9-969D-A38E10E40EE6" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7EEEADE1-412F-21A0-1D02-E8B35ADD5206</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

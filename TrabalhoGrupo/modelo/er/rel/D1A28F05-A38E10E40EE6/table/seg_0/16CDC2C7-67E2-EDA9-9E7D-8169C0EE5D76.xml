@@ -1,0 +1,183 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="16CDC2C7-67E2-EDA9-9E7D-8169C0EE5D76" name="Students">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-12-02 13:33:41 UTC</createdTime>
+<generatorID>5ED32072-98A0-2704-D896-4AB5B8518501</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="student_ID" id="4F89DA12-6376-2772-8643-D5E27C20D586">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-12-02 13:33:41 UTC</createdTime>
+<generatorID>743C9CED-DB31-C184-45F9-97B8FEB93399</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="BDC4C335-25A3-B612-F82D-4ADA32D5EF69">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-12-02 13:33:41 UTC</createdTime>
+<generatorID>F922D4D3-74A3-A158-8139-67EBDB023646</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gender" id="15202FEB-3D37-EBF5-3997-EA59E1D3C9ED">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-12-02 13:33:41 UTC</createdTime>
+<generatorID>1F44F852-5B8B-60E7-9C6F-D6E5F14FC9A7</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="indentity_number" id="37C6B027-0E49-0300-F7B3-2CFB97A324AD">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-12-02 13:33:41 UTC</createdTime>
+<generatorID>9312F138-028A-3728-74E9-D62D723DA077</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nif" id="2A5EF696-10F5-BBB8-B2B4-550E220C2C73">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-12-02 13:33:41 UTC</createdTime>
+<generatorID>AC8B3A6E-DBE0-6404-ED1D-B77C80729CEA</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mobile_phone" id="499DE609-E030-2017-EF40-15FD54A85E08">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-12-02 13:33:41 UTC</createdTime>
+<generatorID>7617B602-951B-72C5-9273-B6E77A5472D3</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="AF534A0F-7FAD-C715-6F2E-E7DB8544B587">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-12-02 13:33:41 UTC</createdTime>
+<generatorID>2D4DA862-B63A-128A-A514-7ECA1AD7CA8B</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="deleted" id="F370C40A-2124-50BE-1C81-EA1D3CFBB699">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-12-02 13:33:41 UTC</createdTime>
+<generatorID>EBBB2881-E7A0-7EAB-E235-68A0CEC6AA48</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_created" id="C313C534-9D1F-AB14-EF09-2E51FB934B58">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-12-02 13:33:41 UTC</createdTime>
+<generatorID>0566AD7E-64BE-35F7-CE77-2273AF3E1FAA</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_updated" id="D4954E8B-EFE0-947A-1FA0-286262AE970B">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-12-02 13:33:41 UTC</createdTime>
+<generatorID>B8089CCA-75FD-DF8D-0867-8B886CDACB35</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_deleted" id="DC0CD8AE-B1D2-430C-5711-6B5EA6EFD1B8">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-12-02 13:33:41 UTC</createdTime>
+<generatorID>58C9A493-6007-EB14-E68D-26ED778EC8BD</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vacinated" id="EB3FAAE1-B64A-C843-0C1F-C5265654BC68">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-12-02 13:33:41 UTC</createdTime>
+<generatorID>8AD6F792-8CBB-E7D9-9D2B-EF67056BF346</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9055AF81-2F93-8EBF-016D-724A413E5CCB" name="Students_PK">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-12-02 13:33:41 UTC</createdTime>
+<generatorID>D35C452D-A592-686C-C670-8C80CD72E6DE</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F89DA12-6376-2772-8643-D5E27C20D586"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="596B8333-76F3-1B04-24B8-5EDFA70BACD4" name="Students_nif_indentity_number_UN">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-12-02 13:33:41 UTC</createdTime>
+<generatorID>4D541CF7-ACA9-EA0E-C261-94EAC8FC0275</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A5EF696-10F5-BBB8-B2B4-550E220C2C73"/>
+<colUsage columnID="37C6B027-0E49-0300-F7B3-2CFB97A324AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

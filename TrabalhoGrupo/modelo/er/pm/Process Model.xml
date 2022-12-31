@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="D7530259-89FC-A784-BC30-4986268FC401">
+<createdBy>VorteX</createdBy>
+<createdTime>2021-10-24 21:48:49 UTC</createdTime>
+<ownerDesignName>er</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

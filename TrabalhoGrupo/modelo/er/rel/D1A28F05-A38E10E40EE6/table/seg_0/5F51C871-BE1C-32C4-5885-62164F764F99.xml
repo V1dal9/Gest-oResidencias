@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5F51C871-BE1C-32C4-5885-62164F764F99" name="Rooms">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-12-02 13:33:41 UTC</createdTime>
+<generatorID>4D3C7816-5CAB-3D8D-586E-AC26EBD568EC</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rooms_id" id="C0D6BFB8-ED8A-2353-1C36-EEA8F48040A5">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-12-02 13:33:41 UTC</createdTime>
+<generatorID>FB266D94-092A-D7A8-9E12-CF2501847D6C</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rooms_num" id="38CF1675-FA81-5711-0869-506A6A658892">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-12-02 13:33:41 UTC</createdTime>
+<generatorID>D42235C2-040A-CC20-04B8-866423AF7E05</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="F32F0A24-DEAC-D9DE-C3BF-DE96B1FDA053">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-12-02 13:33:41 UTC</createdTime>
+<generatorID>68BB0123-C449-D964-BBC5-A6D5EDFBB48D</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Residence_residence_ID" id="BFE5FF37-BC07-A584-6892-FB91482A4386">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-12-02 13:33:41 UTC</createdTime>
+<generatorID>7900CAE8-0C5D-4406-91CB-C883052B752C</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="752867B7-7FB7-5C22-6CE6-5BEDC55DD1A1" referredColumn="9F7B2CE4-1280-33CD-E6C6-752533DB735A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="503BA1A1-0B0E-7DF4-0B73-110473CA0F3B" name="Rooms_PK">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-12-02 13:33:41 UTC</createdTime>
+<generatorID>79BEAB73-71E3-E82C-EF8B-BF948E1674BC</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0D6BFB8-ED8A-2353-1C36-EEA8F48040A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A75E620-5E48-A500-D212-80D04C47FCC5" name="Rooms_Residence_FK">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-12-02 13:33:41 UTC</createdTime>
+<generatorID>558AF4FD-34CD-2FF1-F031-FBE8D8A3C9B9</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BFE5FF37-BC07-A584-6892-FB91482A4386"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

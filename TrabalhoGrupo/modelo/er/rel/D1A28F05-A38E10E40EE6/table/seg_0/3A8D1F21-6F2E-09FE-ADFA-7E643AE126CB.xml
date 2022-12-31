@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3A8D1F21-6F2E-09FE-ADFA-7E643AE126CB" name="Residence">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-12-02 12:33:19 UTC</createdTime>
+<generatorID>81B2404F-40DD-F25C-D74A-565C84E9F5BD</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="residence_ID" id="9F7B2CE4-1280-33CD-E6C6-752533DB735A">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-12-02 12:33:19 UTC</createdTime>
+<generatorID>3035E9ED-A8E3-04A2-440A-28EB23B61F7B</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="C8B7B335-DAD1-A38C-8DCD-00EB7504E2F5">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-12-02 12:33:19 UTC</createdTime>
+<generatorID>A5CB17EF-A8C7-9CE9-929F-87DFB3B8EF8C</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="location" id="CE7EAFB2-4CF3-1A62-A8E0-5C52060A0983">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-12-02 12:33:19 UTC</createdTime>
+<generatorID>53005792-0EDD-4281-DC9A-D9AB58335378</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone" id="41697F6C-977E-0F75-8C5B-654B421C37B1">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-12-02 12:33:19 UTC</createdTime>
+<generatorID>5AAF94AA-733A-41EB-6CA4-CB91F44BFC66</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gender" id="0AB2943E-580E-778B-A5F8-BA4924BEFC86">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-12-02 13:33:41 UTC</createdTime>
+<generatorID>7788AB77-BF89-DE7F-82D0-4F6E665C1F00</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CFFF817A-ED9C-0C49-AAB7-3F2DA9588A8E" name="Residence_PK">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-12-02 12:33:19 UTC</createdTime>
+<generatorID>8FC1C37E-766F-5690-1DCE-7E35921099B0</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F7B2CE4-1280-33CD-E6C6-752533DB735A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

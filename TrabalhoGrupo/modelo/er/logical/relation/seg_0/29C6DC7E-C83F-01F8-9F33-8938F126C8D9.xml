@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="covid_student" directorySegmentName="seg_0" id="29C6DC7E-C83F-01F8-9F33-8938F126C8D9">
+<createdBy>VorteX</createdBy>
+<createdTime>2021-10-24 22:46:36 UTC</createdTime>
+<ownerDesignName>er</ownerDesignName>
+<engineerTo>
+<item key="D1A28F05-5C21-23D9-969D-A38E10E40EE6" value="true"/>
+</engineerTo>
+<sourcePk>706BDFCE-1FF5-1865-0406-B43895CF38E5</sourcePk>
+<targetPk>D35C452D-A592-686C-C670-8C80CD72E6DE</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>49158ADF-5020-0942-D962-DFFD8F1418A4</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>5ED32072-98A0-2704-D896-4AB5B8518501</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

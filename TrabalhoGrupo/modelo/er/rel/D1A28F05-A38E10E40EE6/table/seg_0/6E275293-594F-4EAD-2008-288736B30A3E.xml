@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6E275293-594F-4EAD-2008-288736B30A3E" name="Contract">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-12-02 13:33:41 UTC</createdTime>
+<generatorID>D32CE3A8-815C-F911-FEAC-7411E07D8553</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="contract_id" id="09C2907F-9595-2516-2EE1-2C3EB1A4CA36">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-12-02 13:33:41 UTC</createdTime>
+<generatorID>7EEEADE1-412F-21A0-1D02-E8B35ADD5206</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_start_rent" id="1A6D276E-4B95-A883-276F-E9B68953CCFF">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-12-02 13:33:41 UTC</createdTime>
+<generatorID>6933CD0D-1C4C-6608-94C8-57EE543E9BA5</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_end_rent" id="3ED49D39-67C7-A4A0-EB1F-337B2322F0E4">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-12-02 13:33:41 UTC</createdTime>
+<generatorID>FE7A992F-CBFC-DFA0-1692-E479841CEF02</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Students_student_ID" id="8CED77BD-B676-6128-6794-E2AE2411E50B">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-12-02 13:33:41 UTC</createdTime>
+<generatorID>2C960CBB-B815-9099-52A8-5479E77AB03F</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ADC37406-E05F-7828-668D-9493717ABDED" referredColumn="4F89DA12-6376-2772-8643-D5E27C20D586"/>
+</associations>
+</Column>
+<Column name="Rooms_rooms_id" id="E3E845CA-AE79-E486-EE8D-439A337EFEAC">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-12-02 13:33:41 UTC</createdTime>
+<generatorID>3D6BD1AA-DB84-DE4F-7ABC-2506F6DC5D99</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B2F6D357-BFB8-9B56-1F1D-A50EF6369F3B" referredColumn="C0D6BFB8-ED8A-2353-1C36-EEA8F48040A5"/>
+</associations>
+</Column>
+<Column name="pagamento" id="786BFF5D-E0EE-A660-C098-3EA574E966AE">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-12-02 13:33:41 UTC</createdTime>
+<generatorID>835432E0-672C-7D78-ADB9-BFD932F69152</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>100</dataTypePrecision>
+<ownDataTypeParameters>,100,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="61E66388-F998-25BF-57FB-4BF3A4B9847D" name="Contract_PK">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-12-02 13:33:41 UTC</createdTime>
+<generatorID>E8A0F2C5-7DEE-5482-4E5B-65A2CFF019F1</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09C2907F-9595-2516-2EE1-2C3EB1A4CA36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A1206881-9507-046E-10D6-C51ABA7F6CDD" name="Contract_Rooms_FK">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-12-02 13:33:41 UTC</createdTime>
+<generatorID>2DE52561-02A5-DE14-B759-5B1746D9B1D7</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3E845CA-AE79-E486-EE8D-439A337EFEAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE8D373A-275B-126E-68FC-832B3EAC4D06" name="Contract_Students_FK">
+<createdBy>Raquel</createdBy>
+<createdTime>2021-12-02 13:33:41 UTC</createdTime>
+<generatorID>75C8F39A-75F1-C532-2FCA-E296F8B5AE28</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8CED77BD-B676-6128-6794-E2AE2411E50B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

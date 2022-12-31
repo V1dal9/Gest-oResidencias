@@ -1,0 +1,68 @@
+select username, machine, to_char(logon_time,'dd/mm/yyyy hh24:mi:ss')
+from v$session
+where username like 'BDI_EI%';
+
+--trabalho de grupo
+
+desc Materials;
+
+set serveroutput on;
+
+declare
+    v_students_id rooms.students_id%TYPE := 4;
+begin
+    delete rooms where students_id = 4;
+    update rooms set STUDENT_NAME = 'Laura Martins' where students_id =  v_students_id;
+    
+    dbms_output.put_line(v_students_id);
+end;
+/
+--------------------------------------------------
+--trabalho de grupo
+
+desc rooms;
+desc students;
+set serveroutput on;
+
+declare
+    v_student_id number(2);
+    v_rooms_id rooms.rooms_id%TYPE := 4;
+begin
+    delete students where student_id = 4;
+    --insert into student(student_id, name, gender)
+    update rooms set student_name = null where rooms_id =  v_rooms_id;
+end;
+/
+
+-----------------------------------------------------
+Error starting at line : 11 in command -
+declare
+    v_student_id number(2);
+    v_rooms_id rooms.rooms_id%TYPE := 4;
+begin
+    delete students where student_id = 4;
+    --insert into student(student_id, name, gender)
+    update rooms set student_name = null where rooms_id =  v_rooms_id;
+end;
+Error report -
+ORA-02292: restrição de integridade (BDI_EI_1705182.CONTRACT_STUDENTS_FK) violada - encontrado registo filho
+ORA-06512: na linha 5
+02292. 00000 - "integrity constraint (%s.%s) violated - child record found"
+*Cause:    attempted to delete a parent key value that had a foreign
+           dependency.
+*Action:   delete dependencies first then parent or disable constraint.
+
+---------------------------------------------------------------
+desc residence;
+desc students;
+set serveroutput on;
+
+declare
+    v_residence_name varchar2(50);
+    v_name name%TYPE := 'Feminina 3';
+begin
+    delete contract where name = 'Masculina 1';
+    --insert into student(student_id, name, gender)
+    update students set residence_name = null where name =  v_name;
+end;
+/
